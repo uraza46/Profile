@@ -1,0 +1,122 @@
+/*************Tag Selectors************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-family: 'Sacramento', cursive;
+  color: #4AB19A;
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ECA042;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #4AB19A;
+}
+
+a {
+  color: #40514E;
+  font-family: 'Didact Gothic', sans-serif;
+  padding: 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FCFEFE;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #bcbcbc;
+  border-width: 5px;
+  height: 0;
+  width: 15%;
+}
+
+/*************Class Selectors************/
+
+/* top-container */
+.navbar {
+  background-color: #66BFBF;
+}
+
+/* .navbar-toggler{
+  ;
+} */
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+}
+
+
+.laptop {
+  margin-top: 100px;
+  width: 220px;
+}
+
+.profile-pic {
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  filter: invert(100%);
+}
+
+.pad {
+  padding: 8% 0;
+}
+
+
+
+.colored-section {
+  background-color: #E4F9F5;
+}
+
+
+.heading-margin{
+  margin-bottom: 20px;
+}
+
+/* Skills */
+.row {
+  width: 60%;
+  margin: auto;
+}
+
+.card {
+  margin: 7%;
+}
+
+/* Work Experience */
+
+.carousel-inner{
+  margin: 5% auto;
+}
+
+.carousel-item img{
+  width: 200px;
+}
+
+
+/* bottom container */
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bottom-text {
+  color: #EAF6F6;
+}
